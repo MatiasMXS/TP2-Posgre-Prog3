@@ -1,5 +1,9 @@
-<html>
-<head><title>Notas del Alumno</title></head>
+<html lang="es">
+<head>
+      <meta charset="UTF-8"> 
+    <title>Notas por Alumno</title>
+<link rel="stylesheet" href="style.css">
+</head>
 <body>
 
 <?php
