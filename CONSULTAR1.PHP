@@ -9,13 +9,14 @@
  <div class="banner">
         <h1>Sistema de Consultas</h1>
     </div>
-	<div>
+	<div class="container">
+        <p>Consultas Básicas</p>
 		<form name="form1" method="post" action="CONSULTAR4.php">
-	MOSTRAR TODAS LOS ALUMNOS: <input type="submit" value="Alumnos">
+	<input class="button" type="submit" value="Mostrar todos los Alumnos">
 </form>
 
 <form name="form1" method="post" action="CONSULTAR5.php">
-	MOSTRAR TODAS LAS MATERIAS: <input type="submit" value="Materias">
+	<input class="button" type="submit" value="Mostrar todas las Materias">
 </form>
 
 </body>

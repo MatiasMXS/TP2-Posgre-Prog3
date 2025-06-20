@@ -1,5 +1,6 @@
  body {
-            font-family: Arial, sans-serif;
+            font-family: 'Georgia',serif;
+            text-align: center;
             margin: 0;
             padding: 0;
             background-color: #f4f4f9;
@@ -7,14 +8,14 @@
         .banner {
             background-color: #e6e6fa;
             padding: 20px 0;
-            text-align: center;
         }
-        .banner h1 {
+        h1, h2 {
             margin: 0;
             color: #4b0082;
         }
         .container {
-            padding: 20px;
+            margin: 20px auto;
+            width: 80%;
         }
         .button {
             display: inline-block;
@@ -28,6 +29,20 @@
         .button:hover {
             background-color: #6a0dad;
         }
+
+        .button2 {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-bottom: 20px;
+            background-color: #e6e6fa;
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .button2:hover {
+            background-color: #dad6ec;
+        }
+
         form {
             margin-bottom: 20px;
         }

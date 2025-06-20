@@ -5,7 +5,14 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+ <div class="banner">
+        <h1>Sistema de Consultas</h1>
+    </div>
+        <br>
+    <div>
+<h2>Consulta de Notas por Materia</h2>
+</div>
+<br>
 <?php
 include 'conexion.php';
 
@@ -23,15 +30,15 @@ $sql = "SELECT m.materia, a.nombre AS alumno, n.nota, n.observacion
 
 $resultado = pg_query($sql);
 
-echo "<h3>Notas por Materia</h3>";
-echo '<table border="1"><tr><th>Materia</th><th>Alumno</th><th>Nota</th><th>Observación</th></tr>';
+echo '<div class="container"><table border="1"><tr><th>Materia</th><th>Alumno</th><th>Nota</th><th>Observación</th></tr>';
 while ($row = pg_fetch_array($resultado)) {
     echo "<tr><td>{$row['materia']}</td><td>{$row['alumno']}</td><td>{$row['nota']}</td><td>{$row['observacion']}</td></tr>";
 }
-echo '</table>';
+echo '</table></div>';
 
 pg_close($conectado);
 ?>
+<a class="button2" href='http://localhost/programacion3/TP2-Posgre-Prog3/CONSULTAR1.PHP'>Volver a la página principal</a>
 
 </body>
 </html>
