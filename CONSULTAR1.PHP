@@ -9,6 +9,18 @@
  <div class="banner">
         <h1>Sistema de Consultas</h1>
     </div>
+	<div>
+		<form name="form1" method="post" action="CONSULTAR4.php">
+	MOSTRAR TODAS LOS ALUMNOS: <input type="submit" value="Alumnos">
+</form>
+
+<form name="form1" method="post" action="CONSULTAR5.php">
+	MOSTRAR TODAS LAS MATERIAS: <input type="submit" value="Materias">
+</form>
+
+</body>
+</html>
+	</div>
 <div class="container">
 <form name="formi" method="post" action="CONSULTAR2.php">
     Consulta de Notas de Alumnos:
@@ -44,20 +56,6 @@
     ?>
     <input class="button" type="submit" value="Consulta por Materia">
 </form>
-<<<<<<< HEAD
-
-<form name="form1" method="post" action="CONSULTAR4.php">
-	MOSTRAR TODAS LOS ALUMNOS: <input type="submit" value="Alumnos">
-</form>
-
-<form name="form1" method="post" action="CONSULTAR5.php">
-	MOSTRAR TODAS LAS MATERIAS: <input type="submit" value="Materias">
-</form>
-
-
-
-=======
 </div>
->>>>>>> f0b9edd86713aef32ba6a171679f6c7200d79485
 </body>
 </html>
