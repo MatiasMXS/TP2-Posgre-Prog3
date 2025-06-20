@@ -36,5 +36,15 @@
     <input type="submit" value="Consulta por Materia">
 </form>
 
+<form name="form1" method="post" action="CONSULTAR4.php">
+	MOSTRAR TODAS LOS ALUMNOS: <input type="submit" value="Alumnos">
+</form>
+
+<form name="form1" method="post" action="CONSULTAR5.php">
+	MOSTRAR TODAS LAS MATERIAS: <input type="submit" value="Materias">
+</form>
+
+
+
 </body>
 </html>
